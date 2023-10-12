@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  html {
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  body {
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    height:100vh;
+    flex-direction: column;
+    background-size: cover;
+    backdrop-filter: blur(4px);
+    background-image: url("./night-sky-5120x2880-stars-night-milky-way-mountains-land-419\ \(2\).jpg");
+  }
+ footer{
+  background-color: aqua;
+ }

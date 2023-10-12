@@ -1,0 +1,64 @@
+
+
+.footer {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  
+}
+.footerBox {
+  position: fixed;
+  bottom: 0rem;
+  padding:3rem 2rem;
+  justify-content: space-between;
+  display: flex;
+  width: 100vw;
+  
+}
+.inputBox {
+  width: 100vw;
+  padding: 2rem;
+  background: #fff;
+  border: none;
+  display: flex;
+  border-radius: 3rem;
+  padding: 0rem 1rem;
+  justify-content: space-between;
+}
+input {
+  border: none;
+  width: 100%;
+  padding: 1rem;
+  background: transparent;
+}
+input:focus {
+  outline: none;
+  border: none;
+}
+
+button {
+  border: none;
+  background: transparent;
+  
+}
+img {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+@media (min-width: 900px) {
+  
+    .footerBox {
+      margin: 0;
+      width: 64%;
+    }
+  
+}
+
+@media screen and (max-width: 1000px) and (min-width: 666px) {
+  
+    .footerBox {
+      margin: 0;
+      width: 64%;
+    
+  }
+}
