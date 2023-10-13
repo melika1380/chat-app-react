@@ -39,7 +39,7 @@ li {
 
 @media (min-width: 900px) {
   ul{
-    width: 56%;
+    width: 77%;
   }
   .main{
     width: 100vw;
@@ -48,9 +48,14 @@ li {
 
 @media screen and (max-width: 1000px) and (min-width: 666px) {
   ul{
-    width: 56%;
+    width: 75%;
   }
   .main{
     width: 100vw;
+  }
+}
+@media(max-width: 666px) {
+  ul{
+    width: 85%;
   }
 }
